@@ -3,7 +3,8 @@ console.log(child);
 
 document.getElementById('title').style.color = 'green'
 
-
+document.getElementById('fruity').style.textTransform = 'uppercase'
+document.getElementById('veggies').style.textTransform = 'uppercase'
 
 let fruits = document.createElement('fruList')
 fruits.innerHTML = "Kiwi"
